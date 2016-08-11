@@ -1,0 +1,77 @@
+{
+    "count": 1,
+    "start": 0,
+    "total": 24,
+    "subjects": [
+        {
+            "rating": {
+                "max": 10,
+                "average": 4.9,
+                "stars": "25",
+                "min": 0
+            },
+            "genres": [
+                "悬疑",
+                "奇幻",
+                "冒险"
+            ],
+            "title": "盗墓笔记",
+            "casts": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1274628/",
+                    "avatars": {
+                        "small": "https://img1.doubanio.com/img/celebrity/small/32917.jpg",
+                        "large": "https://img1.doubanio.com/img/celebrity/large/32917.jpg",
+                        "medium": "https://img1.doubanio.com/img/celebrity/medium/32917.jpg"
+                    },
+                    "name": "井柏然",
+                    "id": "1274628"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1337001/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1451933721.86.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1451933721.86.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1451933721.86.jpg"
+                    },
+                    "name": "鹿晗",
+                    "id": "1337001"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1275243/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1417875699.12.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1417875699.12.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1417875699.12.jpg"
+                    },
+                    "name": "马思纯",
+                    "id": "1275243"
+                }
+            ],
+            "collect_count": 79129,
+            "original_title": "盗墓笔记",
+            "subtype": "movie",
+            "directors": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1275585/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/11494.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/11494.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/11494.jpg"
+                    },
+                    "name": "李仁港",
+                    "id": "1275585"
+                }
+            ],
+            "year": "2016",
+            "images": {
+                "small": "https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2370646859.jpg",
+                "large": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2370646859.jpg",
+                "medium": "https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2370646859.jpg"
+            },
+            "alt": "https://movie.douban.com/subject/24827387/",
+            "id": "24827387"
+        }
+    ],
+    "title": "正在上映的电影-北京"
+}

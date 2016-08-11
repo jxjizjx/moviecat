@@ -1,0 +1,120 @@
+一、项目骨架
+	1、clone项目
+		-- https://github.com/zce/angular-boilerplate.git
+	
+	2、项目结构
+		-- .gitignore ： 提交时被忽略的文件/文件夹名单
+		-- .editorconfig ： 制定编码格式规范，统一不同开发工具的不同开发配置
+			＋＋在sublime中使用需要安装一个EditorConfig的插件
+		-- app ： 项目目录
+		
+	3、骨架目的
+		-- 为NG做一个骨架的目的是为了快速开始一个新的项目，如：angular-seed
+			
+二、项目构建
+	1、下载bootstrap,并引入
+	
+	2、选取页面框架
+		-- http://v3.bootcss.com/examples/dashboard/
+	
+	3、划分主要的侧边栏（三大模块）
+		-- app.js
+		-- app.css
+		-- index.html			
+		-- in_theaters
+			++ view.html
+			++ controller.js
+		-- coming_soon
+			++ view.html
+			++ controller.js
+		-- top250
+			++ view.html
+			++ controller.js
+	
+	4、引入模块（js文件）
+	
+三、豆瓣API
+	1、地址
+		-- https://developers.douban.com/wiki/?title=movie_v2
+		-- https://api.douban.com/
+		
+	2、API调试
+		-- 安装chrome插件postman
+			++ postman使用
+		-- 百度在线工具
+			++ http://apistore.baidu.com/astore/toolshttpproxy
+		
+	3、使用测试数据布局主页面
+		
+四、控制器的编写
+	1、设计暴露的数据
+		-- $scope暴露subjects
+		-- $http 获得本地文件
+			// 使用离线数据
+            $scope.subjects = [];
+            $http({
+                method: 'GET',
+                url: '/angular-boilerplate-master/app/datas/data.json'
+                // cache: $templateCache//缓存
+            }).
+            then(function(response) {
+                console.log(response);
+                $scope.subjects = response.data.subjects;
+            }, function(response) {
+                console.log(response);
+                //错误的提示
+                $scope.errMsg = "Request failed : "+response.status+' ! '+response.statusText;
+            });
+		--$http 跨域请求
+			++ jsonp
+			++ cors代理
+				- npm install -g corsproxy
+		
+		
+		
+	2、设计暴露的行为（方法）
+	
+	
+五、异步加载库文件
+	load.js、script.js、head.js都可以做到异步加载库
+	1、安装script.js
+		-- bower install script.js --save
+	2、使用
+		$script('js/jquery.min.js',function(){});
+		$script(['',''],function(){});
+	3、angular-loader可以自动管理相互依赖的包（异步加载的时候）
+		-- 只需引入这个库即可
+		
+六、搜索
+	$routeParams 的数据来源
+		-- 路由匹配规则中的参数
+		-- ？号后面的参数
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

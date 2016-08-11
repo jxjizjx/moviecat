@@ -1,0 +1,27 @@
+<h1 class="page-header">正在热映</h1>
+<h1 class="page-header" ng-if="errMsg">{{errMsg}}</h1>
+<div class="list-group">
+    <a class="list-group-item" href='#/detail/{{item.id}}' ng-repeat="item in subjects" >
+    <div class="media">
+        <span class="badge pull-right">{{item.rating.average}}</span>
+        <div class="media-left media-middle">
+            <img class="media-object" ng-src="{{item.images.medium}}" alt="{{item.images.small}}">
+        </div>
+        <div class="media-body">
+            <h2 class="media-heading">{{item.title}}</h2>
+            <p>导演：<span ng-repeat="director in item.directors">{{director.name}}<span ng-if="!$last">、</span></span></p>
+            <p>演员：<span ng-repeat="cast in item.casts">{{cast.name}} <span ng-if="!$last">、</span> </span></p>
+        </div>
+    </div>
+    </a>
+</div>
+<nav>
+  <ul class="pager">
+    <li style="cursor:pointer;margin:10px" ng-class="{disabled:currentPage<=1}" ng-click="go(currentPage-1)"><a>Previous</a> </li>
+    <li style="cursor:pointer;margin:10px" ng-class="{disabled:currentPage>=totalPage}" ng-click="go(currentPage+1)"><a>Next</a> </li>
+  </ul>
+</nav>
+
+<div ng-if="loading" style="z-index:1000;width:100%;height:100%;position:fixed;left:0px;top:0px;background:rgba(100,100,100,0.5);" >
+    
+</div>

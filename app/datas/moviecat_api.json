@@ -1,0 +1,222 @@
+{
+    "count": 3,
+    "start": 0,
+    "total": 19,
+    "subjects": [
+        {
+            "rating": {
+                "max": 10,
+                "average": 4.9,
+                "stars": "25",
+                "min": 0
+            },
+            "genres": [
+                "悬疑",
+                "奇幻",
+                "冒险"
+            ],
+            "title": "盗墓笔记",
+            "casts": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1274628/",
+                    "avatars": {
+                        "small": "https://img1.doubanio.com/img/celebrity/small/32917.jpg",
+                        "large": "https://img1.doubanio.com/img/celebrity/large/32917.jpg",
+                        "medium": "https://img1.doubanio.com/img/celebrity/medium/32917.jpg"
+                    },
+                    "name": "井柏然",
+                    "id": "1274628"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1337001/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1451933721.86.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1451933721.86.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1451933721.86.jpg"
+                    },
+                    "name": "鹿晗",
+                    "id": "1337001"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1275243/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1417875699.12.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1417875699.12.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1417875699.12.jpg"
+                    },
+                    "name": "马思纯",
+                    "id": "1275243"
+                }
+            ],
+            "collect_count": 77227,
+            "original_title": "盗墓笔记",
+            "subtype": "movie",
+            "directors": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1275585/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/11494.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/11494.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/11494.jpg"
+                    },
+                    "name": "李仁港",
+                    "id": "1275585"
+                }
+            ],
+            "year": "2016",
+            "images": {
+                "small": "https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2370646859.jpg",
+                "large": "https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2370646859.jpg",
+                "medium": "https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2370646859.jpg"
+            },
+            "alt": "https://movie.douban.com/subject/24827387/",
+            "id": "24827387"
+        },
+        {
+            "rating": {
+                "max": 10,
+                "average": 7.7,
+                "stars": "40",
+                "min": 0
+            },
+            "genres": [
+                "喜剧",
+                "动画"
+            ],
+            "title": "爱宠大机密",
+            "casts": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1049602/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/11534.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/11534.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/11534.jpg"
+                    },
+                    "name": "路易·C·K",
+                    "id": "1049602"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1049652/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/5020.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/5020.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/5020.jpg"
+                    },
+                    "name": "艾瑞克·斯通斯崔特",
+                    "id": "1049652"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1286162/",
+                    "avatars": {
+                        "small": "https://img1.doubanio.com/img/celebrity/small/25517.jpg",
+                        "large": "https://img1.doubanio.com/img/celebrity/large/25517.jpg",
+                        "medium": "https://img1.doubanio.com/img/celebrity/medium/25517.jpg"
+                    },
+                    "name": "凯文·哈特",
+                    "id": "1286162"
+                }
+            ],
+            "collect_count": 33698,
+            "original_title": "The Secret Life of Pets",
+            "subtype": "movie",
+            "directors": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1295449/",
+                    "avatars": {
+                        "small": "https://img1.doubanio.com/img/celebrity/small/29587.jpg",
+                        "large": "https://img1.doubanio.com/img/celebrity/large/29587.jpg",
+                        "medium": "https://img1.doubanio.com/img/celebrity/medium/29587.jpg"
+                    },
+                    "name": "克里斯·雷纳德",
+                    "id": "1295449"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1280591/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1467266335.21.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1467266335.21.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1467266335.21.jpg"
+                    },
+                    "name": "雅候·迟内",
+                    "id": "1280591"
+                }
+            ],
+            "year": "2016",
+            "images": {
+                "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2363369616.jpg",
+                "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2363369616.jpg",
+                "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2363369616.jpg"
+            },
+            "alt": "https://movie.douban.com/subject/21817627/",
+            "id": "21817627"
+        },
+        {
+            "rating": {
+                "max": 10,
+                "average": 5.3,
+                "stars": "30",
+                "min": 0
+            },
+            "genres": [
+                "爱情"
+            ],
+            "title": "夏有乔木 雅望天堂",
+            "casts": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1337000/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1401722517.74.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1401722517.74.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1401722517.74.jpg"
+                    },
+                    "name": "吴亦凡",
+                    "id": "1337000"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1275667/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/14025.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/14025.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/14025.jpg"
+                    },
+                    "name": "韩庚",
+                    "id": "1275667"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1336362/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1385601984.71.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1385601984.71.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1385601984.71.jpg"
+                    },
+                    "name": "卢杉",
+                    "id": "1336362"
+                }
+            ],
+            "collect_count": 20313,
+            "original_title": "夏有乔木 雅望天堂",
+            "subtype": "movie",
+            "directors": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1327950/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1371615180.93.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1371615180.93.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1371615180.93.jpg"
+                    },
+                    "name": "赵真奎",
+                    "id": "1327950"
+                }
+            ],
+            "year": "2016",
+            "images": {
+                "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2355434506.jpg",
+                "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2355434506.jpg",
+                "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2355434506.jpg"
+            },
+            "alt": "https://movie.douban.com/subject/25843976/",
+            "id": "25843976"
+        }
+    ],
+    "title": "正在上映的电影-北京"
+}
