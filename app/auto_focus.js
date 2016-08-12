@@ -11,18 +11,26 @@
                     $scope.$location = $location;
                     $scope.$watch('$location.path()',function(now){
                         var aLink = iElm.children().attr('href');
-                        // console.log(aLink);
+                        console.log(aLink);
                         var category = aLink.substring(1,aLink.indexOf('/'));
                         // console.log(category);
                         // console.log(now);
+                        // startsWith() 以什么开头
                         if(now.substring(1).startsWith(category)){
                             iElm.parent().children().attr('class','');
                             iElm.attr('class', 'active');
                         }
                     })
+                    //angular中分装了jquery的一个子集jqlite
+                    // console.log(iElm);
                     // iElm.on('click', function(event) {
+
+                    //     console.log(iElm);
+                    //     console.log(this);
+                        
                     //     iElm.parent().children().attr('class','');
-                    //     this.setAttribute('class', 'active');
+                    //     iElm.addClass('active');
+                    //     // this.setAttribute('class', 'active');
                     // });
                 }
             };

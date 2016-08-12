@@ -2,7 +2,7 @@
     'use strict';
     // Declare app level module which depends on views, and components
     // angular.module('moviecat', ['ngRoute', 'moviecat.in_theaters', 'moviecat.coming_soon', 'moviecat.top250']).
-    angular.module('moviecat', ['ngRoute','moviecat.detail', 'moviecat.movie_list','moivecat.autoFocus']).
+    angular.module('moviecat', ['ngRoute','moviecat.detail','moviecat.movie_list', 'moivecat.autoFocus']).
     config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.otherwise({
@@ -14,6 +14,7 @@
     .constant('appConfig', {
         apiPath:'https://api.douban.com/v2/movie/'
     })
+    //
     .controller('searchController', ['$scope','$route',
         function($scope,$route){
         $scope.seachInput = "";

@@ -8,11 +8,11 @@
                 });
                  
         }])
-        .controller('detailController', ['$scope','$routeParams','MyHttpService', function($scope,$routeParams,MyHttpService){
+        .controller('detailController', ['$scope','$routeParams','MyHttpService','appConfig', function($scope,$routeParams,MyHttpService,appConfig){
             //控制动画
             $scope.loading = true;
             var id = $routeParams.id;
-            var dataPath = "https://api.douban.com/v2/movie/subject/"+id;
+            var dataPath =appConfig.apiPath+"subject/"+id;
             var data = {};
             //电影名
             $scope.movieName = '';
